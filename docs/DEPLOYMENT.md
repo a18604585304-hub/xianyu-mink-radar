@@ -38,7 +38,11 @@ PUBLIC_BASE_URL=
 
 ## 当前进度
 
-1. 项目已创建并改名。
-2. 代码已具备 Dockerfile / `/health` / OAuth 路由。
-3. **还没有 HTTPS 服务地址**：等代码仓库或本地上传绑定成功后才会生成。
-4. 官方 API 凭据尚未拿到（闲鱼联盟要求企业支付宝资质），Scanner 不会在 POC 通过前空转打满额度。
+1. 项目已创建并改名：`xianyu-mink-radar`。
+2. 服务 `radar`（service-6a92f1b3cb6b9b31c9e72ed4）已创建。
+3. Git 仓库：https://github.com/a18604585304-hub/xianyu-mink-radar
+4. 公网域名：`https://xianyu-mink-radar.zeabur.app`
+5. OAuth Callback：`https://xianyu-mink-radar.zeabur.app/auth/callback`
+6. Persistent Volume：`/data`
+7. Health Check：HTTP GET `/health` on port 8080
+8. 官方 API 凭据尚未拿到（闲鱼联盟要求企业支付宝资质），Scanner 不会在 POC 通过前空转打满额度。
